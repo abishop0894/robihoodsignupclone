@@ -1,0 +1,240 @@
+body {
+    display: flex;
+    flex: auto;
+    width: 1903px ;
+    height: 1500px;
+    margin: 0px;
+
+
+}
+
+header {
+  
+    display: flex; 
+    flex: auto;
+    width: auto ;
+    height: 71px;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#logo {
+    width: 215px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    cursor: pointer;
+    
+}
+
+#backgroundgrn {
+   position: absolute;
+    width: 1903px ;
+    height: 301px;
+    background-color: rgb(195, 245, 60);
+    margin-top: 70px;
+    background-image: url(https://join.robinhood.com/_next/static/images/background__22a945876f8f117602803444857ef4a6.svg);
+    background-size: cover;
+    z-index: -1;
+    border-bottom: 1px solid #02070A;
+
+    
+}
+
+#center {
+    width: 1903px;
+    height: 2250px;
+    
+}
+
+#signupbox {
+    width: 627px ;
+    height: 627px;
+    flex: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-right: 630px;
+    margin-left: 220px;
+    margin-top: 200px;
+    -webkit-box-shadow: 1px 0px 16px 5px rgba(0,0,0,0.22); 
+box-shadow: 1px 0px 16px 5px rgba(0,0,0,0.22);
+border-radius: 20px;
+} 
+
+#hi {
+    width: 627px;
+    height: 150px;
+    text-align: center;
+    font-family: "Capsule Sans Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+    text-decoration: unset;
+    justify-content: center;
+    align-items: center;
+}
+
+#stack {
+    display: flex;
+    height: 250px;
+    width: 627px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    flex-direction: row;
+}
+
+#card {
+    width: 15.08%;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-image: url(/icons/blue\ card.jpg);
+    transition: .2s;
+    
+
+
+        
+}
+
+#card:hover {
+    transform: translateY(-1rem);
+}
+
+#card:hover~#card {
+    transform: translateX(130px);
+}
+
+#card:not(:first-child) {
+    margin-left: -130px;
+}
+
+#stack :nth-child(1) {
+ 
+   background-image: url(/icons/green\ card.jpg);
+}
+
+#stack :nth-child(2) {
+    background-image: url(/icons/red\ card.jpg);
+   
+}
+
+
+
+
+p3 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#gifimage {
+    width: 627px;
+    height: 300px;
+}
+
+#freestockbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 627px;
+    margin-top: 40px;
+
+}
+
+#button {
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: rgb(0, 200, 5) ;
+    font-weight: 500;
+
+}
+
+#button:hover {background-color: rgb(43, 161, 28);
+cursor: pointer;}
+
+#sixhundred {
+    margin-left: 269px;
+    font-family: "Capsule Sans Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    visibility: hidden;
+    position: absolute;
+}
+
+#threehundred {
+    margin-left: 269px;
+    font-family: "Capsule Sans Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    visibility: hidden;
+    position: absolute;
+    
+}
+
+#textbox {
+    line-height: 150%;
+    font-size: 16px;
+    width: 627px;
+    height: 1200px;
+    margin-top: 130px;
+    font-family: "Capsule Sans Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#star1, #star2, #star3, #star4, #star5 {
+    margin-right: 10px;
+}
+
+#sipc {
+    font-family: "Capsule Sans Text", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    text-decoration: unset;
+    width: 627px;
+    height: 105px;
+    border-radius: 10px;
+    
+    background-color: rgb(245, 248, 250);
+}
+
+#bottomtext {
+    color: rgb(106, 114, 120);
+}
+
+#sipcgreen, #textcolor, #color{
+    color: rgb(0, 200, 5);
+}
+
+#textcolor:hover {
+    color: rgb(43, 161, 28);
+    cursor: pointer;   
+}
+
+#color:hover {
+    color: rgb(43, 161, 28);
+cursor: pointer;
+}
+
+#sipcgreen:hover {
+    color: rgb(43, 161, 28);
+    cursor: pointer;
+}
